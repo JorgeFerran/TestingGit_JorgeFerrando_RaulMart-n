@@ -1,0 +1,46 @@
+# Archivos Java como texto normal
+*.java text
+
+# Archivos de configuración como texto
+*.xml text
+*.properties text
+*.gradle text
+*.md text
+
+# Archivos compilados como binarios
+*.class binary
+*.jar binary
+*.war binary
+*.ear binary
+
+# Control de fin de línea para evitar conflictos entre sistemas
+*.java text eol=lf
+*.xml text eol=lf
+*.properties text eol=lf
+
+# Ignorar diferencias en archivos binarios
+*.class -diff
+*.jar -diff
+
+# Archivos de proyectos de Visual Studio
+*.sln text eol=crlf
+
+# Archivos 3D como binarios (no se deben comparar)
+*.fbx binary
+*.obj binary
+*.3ds binary
+*.blend binary
+*.stl binary
+*.dae binary
+*.gltf binary
+*.glb binary
+
+# Evitar diferencias en archivos binarios
+*.fbx -diff
+*.obj -diff
+*.3ds -diff
+*.blend -diff
+*.stl -diff
+*.dae -diff
+*.gltf -diff
+*.glb -diff

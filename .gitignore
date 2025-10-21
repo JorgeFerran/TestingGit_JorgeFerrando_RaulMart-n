@@ -1,0 +1,70 @@
+# Archivos de compilación
+*.class
+*.jar
+*.war
+*.ear
+
+# Archivos de configuración del IDE
+*.iml
+*.ipr
+*.iws
+*.suo
+*.user
+*.cache
+*.project
+*.classpath
+
+# Carpetas de IDEs
+.idea/
+.vscode/
+.nb-gradle/
+build/
+target/
+out/
+bin/
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de log y temporales
+*.log
+*.tmp
+*.bak
+
+# Archivos de Maven y Gradle
+.mvn/
+.gradle/
+**/build/
+**/target/
+
+# Archivos de entorno
+.env
+*.env
+
+# Archivos de imágenes
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.webp
+*.svg
+*.heic
+*.raw
+
+# Archivos de música/audio
+*.mp3
+*.wav
+*.flac
+*.aac
+*.ogg
+*.wma
+*.m4a
+*.aiff
+
+# Archivos de sistema operativo
+*.swp
+*.swo
+*.~lock.*
